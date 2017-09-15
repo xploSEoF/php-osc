@@ -42,8 +42,8 @@ namespace PhpOSC;
 class OSCDatagram
 {
 // Virtual private data
-    var $bin = null;
-    var $data = null;
+    protected $bin = null;
+    protected $data = null;
 
 // Virtual functions
     function get_binary()

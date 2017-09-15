@@ -8,8 +8,8 @@ namespace PhpOSC;
  */
 class OSCBundle extends OSCDatagram
 {
-    var $data = array();
-    var $timetag = null;
+    protected $data = array();
+    protected $timetag = null;
 
     /** Create a new OSCBundle datagram
      *

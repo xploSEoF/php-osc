@@ -20,11 +20,11 @@ namespace PhpOSC;
 class OSCClient
 {
 
-    var $sock = null;
-    var $address = null;
-    var $port = null;
-    static $_arch_little_endian = false;
-    static $_arch_twos_complement = false;
+    protected $sock = null;
+    protected $address = null;
+    protected $port = null;
+    protected static $_arch_little_endian = false;
+    protected static $_arch_twos_complement = false;
 
     function __construct($address = null, $port = null)
     {

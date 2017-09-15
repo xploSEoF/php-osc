@@ -6,9 +6,9 @@ namespace PhpOSC;
  */
 class OSCMessage extends OSCDatagram
 {
-    var $address = "/";
-    var $typetags = ",";
-    var $data = array();
+    protected $address = "/";
+    protected $typetags = ",";
+    protected $data = array();
 
     /** Make a new message - Optionally specify address and arguements.
      *
